@@ -9,4 +9,6 @@ The data was spilt into Training and Validation Set. The training set has 220 im
 
 ## Training the Models
 1. CNN Model
+It is a sequential model having 2 Convolutional layers and 2 Fully Connected Layers.
+![Model Architecture](Screenshot from 2019-11-08 10-46-32.png)
 
