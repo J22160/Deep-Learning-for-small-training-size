@@ -13,3 +13,6 @@ It is a sequential model having 2 Convolutional layers and 2 Fully Connected Lay
 
 ![Model Architecture](Screenshot from 2019-11-08 10-46-32.png)
 
+![MOdel](Screenshot from 2019-11-08 09-54-04.png)
+
+
