@@ -11,6 +11,7 @@ The data was spilt into Training and Validation Set. The training set has 220 im
 1. CNN Model
 It is a sequential model having 2 Convolutional layers and 2 Fully Connected Layers.
 
-[[https://github.com/SamFC10/Deep-Learning-for-small-training-size/blob/master/Screenshot%20from%202019-11-08%2010-46-32.png]]
+![Screenshot from 2019-11-08 10-46-32](https://user-images.githubusercontent.com/47391270/68464786-3c849480-0237-11ea-86a8-4f24703d283d.png)
+
 
 
