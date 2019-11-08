@@ -22,8 +22,9 @@ Stochastic Gradient Descent with momentum is used as the optimizer with a very s
 
 2. Pre Trained Model
 
-I used VGG16 as the pre-trained model. The training is done in 2 steps.
--  
+I use VGG16 as the pre-trained model with weights trained on the ImageNet dataset. The fully connected layers at the top of VGG16 are omitted. Custom Fully connected layers are added after the convulational layers of the base model. 
+The training is done in 2 steps. First we I freeze weights of all the convulational layers and only the weights of the fully connected layers are updated. I small learning rate is used to avoid making drastic updates to the weights. This is done for 25 epochs.
+
 
 
 
