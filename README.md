@@ -28,7 +28,9 @@ I use VGG16 as the pre-trained model with weights trained on the ImageNet datase
 
 The training is done in 2 steps. First I freeze the weights of all the convolutional layers and only the weights of the fully connected layers are updated. A small learning rate is used to avoid making drastic updates to the weights. Then the model is trained for 25 epochs.
 
-![Screenshot from 2019-11-10 09-50-57](https://user-images.githubusercontent.com/47391270/68538780-d8311480-039f-11ea-923c-a1c02d55f0cc.png)
+![Screenshot from 2019-11-10 09-54-47](https://user-images.githubusercontent.com/47391270/68538816-63aaa580-03a0-11ea-9825-d5b1aac7165c.png)
+
+
 
 
 
