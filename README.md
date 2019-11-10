@@ -6,11 +6,7 @@ It is well known that deep learning is data hungry and requires a lot of trainin
 
 The data consists of MRI scans of the brain. The task is to identify whether the MRI has brain tumour or not. It is a classification problem which is solved using deep learning. The images can be downloaded from [here](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection). We have a total of only 260 images of which 155 images have brain tumor, named as 'YES', and 105 images do not have brain tumor which are named as 'NO'. 
 
-![](https://user-images.githubusercontent.com/47391270/68539273-f4847f80-03a6-11ea-8f19-a806a8c2df7d.png)
-*YES* 
-
-![](https://user-images.githubusercontent.com/47391270/68539274-f8180680-03a6-11ea-9e5a-9a99c165e68d.png)
-*NO*
+![](https://user-images.githubusercontent.com/47391270/68539273-f4847f80-03a6-11ea-8f19-a806a8c2df7d.png 'YES') ![](https://user-images.githubusercontent.com/47391270/68539274-f8180680-03a6-11ea-9e5a-9a99c165e68d.png 'NO')
 
 ## Splitting the data
 
@@ -23,7 +19,6 @@ The data was spilt into Training and Validation Set. The training set has 220 im
 It is a sequential model having 2 Convolutional Blocks and 2 Fully Connected Layers.
 
 ![Screenshot from 2019-11-08 10-46-32](https://user-images.githubusercontent.com/47391270/68464786-3c849480-0237-11ea-86a8-4f24703d283d.png)
-*MOdel*
 
 Stochastic Gradient Descent with momentum is used as the optimizer with a very small learning rate and the model is trained for 50 epochs so as to avoid overfitting.
 
