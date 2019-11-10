@@ -6,7 +6,7 @@ It is well known that deep learning is data hungry and requires a lot of trainin
 
 The data consists of MRI scans of the brain. The task is to identify whether the MRI has brain tumour or not. It is a classification problem which is solved using deep learning. The images can be downloaded from [here](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection). We have a total of only 260 images of which 155 images have brain tumor, named as 'YES', and 105 images do not have brain tumor which are named as 'NO'. 
 
-!['YES'](https://user-images.githubusercontent.com/47391270/68539273-f4847f80-03a6-11ea-8f19-a806a8c2df7d.png) !['NO'](https://user-images.githubusercontent.com/47391270/68539274-f8180680-03a6-11ea-9e5a-9a99c165e68d.png)
+!['YES'](https://user-images.githubusercontent.com/47391270/68539273-f4847f80-03a6-11ea-8f19-a806a8c2df7d.png)                   !['NO'](https://user-images.githubusercontent.com/47391270/68539274-f8180680-03a6-11ea-9e5a-9a99c165e68d.png)
 
 
 
