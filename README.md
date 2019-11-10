@@ -14,7 +14,7 @@ The data was spilt into Training and Validation Set. The training set has 220 im
 
 ## Models used
 
-1. CNN Model
+**1. CNN Model**
 
 It is a sequential model having 2 Convolutional Blocks and 2 Fully Connected Layers.
 
@@ -22,7 +22,7 @@ It is a sequential model having 2 Convolutional Blocks and 2 Fully Connected Lay
 
 Stochastic Gradient Descent with momentum is used as the optimizer with a very small learning rate and the model is trained for 50 epochs so as to avoid overfitting.
 
-2. Pre Trained Model
+**2. Pre Trained Model**
 
 I use VGG16 as the pre-trained model with weights trained on the ImageNet dataset. The fully connected layers at the top of VGG16 are omitted. Custom Fully connected layers are added after the convolutional layers of the base model. 
 
@@ -34,8 +34,11 @@ The training is done in 2 steps. In **Step 1**, all the convolutional layers of 
 
 In **Step 2**, all the convolutional layers except the last convolutional block of VGG16 are freezed. The last conv layer and the fully connected layers are trained with the same optimizer as in step 1. The model is again trained for 25 epochs. So the total number of epochs for the transfer learning model is 50 which is equal to the number of epochs in CNN model.
 
-### Why a 2-step process?
-This is because our training images are very different from the ImageNet dataset. To make sure the pre trained model learns the features present in the training images, the last convolutional block is unfreezed in step 2. Further this 2-step process gave a better accuracy than training step 1 for 50 epochs.
+##### Why a 2-step process?
+This is because our training images are very different from the ImageNet dataset on which VGG16 is trained. To make sure the our model learns the features present in the training images, the last convolutional block is unfreezed in step 2. Further this 2-step process gives a better accuracy than training step 1 for 50 epochs.
+
+## Result
+The code for training both the models is given in `Brain Tumor Detection.ipynb`. I ran the code for 10 different sets of validation data. All the sets were different from each other and union of all the validation sets gives the entire training set of 260 images. 
 
 
 
