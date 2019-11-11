@@ -40,6 +40,9 @@ This is because our training images are very different from the ImageNet dataset
 ## Result
 The code for training both the models is given in `Brain Tumor Detection.ipynb`. I ran the code for 10 different sets of validation data. All the sets were different from each other and union of all the validation sets gives the entire training set of 260 images. 
 
+![Screenshot (10)](https://user-images.githubusercontent.com/47391270/68562835-5f01f200-0471-11ea-8045-85fe042a5844.png)
+
+
 
 
 
