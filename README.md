@@ -46,6 +46,9 @@ Accuracy and loss graphs for both the models are present in `graph doc.odt`. Gra
 
 ![Screenshot from 2019-11-08 09-54-04](https://user-images.githubusercontent.com/47391270/68563005-1dbe1200-0472-11ea-80e6-0c35e18ff999.png)
 
+![Screenshot from 2019-11-11 11-04-19](https://user-images.githubusercontent.com/47391270/68563324-2fec8000-0473-11ea-8210-010eec426510.png)
+
+
 
 
 
