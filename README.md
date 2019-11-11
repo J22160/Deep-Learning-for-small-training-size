@@ -45,19 +45,10 @@ The code for training both the models is given in `Brain Tumor Detection.ipynb`.
 Accuracy and loss graphs for the models are present in `graph doc.odt`.
 
 ![](https://user-images.githubusercontent.com/47391270/68563324-2fec8000-0473-11ea-8210-010eec426510.png)
-**Graph for Set 1**
 
+## Conclusion
+Clearly the Pre Trained Model outperforms the CNN Model in 9 out of the 10 sets and also has a higher mean accuracy. Fine tuning the pre trained model by using a 2 step process also contributes in a higher validation accuracy.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+## References
+- https://www.pyimagesearch.com/2019/06/03/fine-tuning-with-keras-and-deep-learning/
+- https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection
