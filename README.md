@@ -42,7 +42,7 @@ The code for training both the models is given in `Brain Tumor Detection.ipynb`.
 
 ![Screenshot (10)](https://user-images.githubusercontent.com/47391270/68562835-5f01f200-0471-11ea-8045-85fe042a5844.png)
 
-Accuracy and loss graphs for the models are present in `graph doc.odt`.
+Accuracy and loss graphs for the models are present in `graphs.odt`.
 
 ![](https://user-images.githubusercontent.com/47391270/68563324-2fec8000-0473-11ea-8210-010eec426510.png)
 
