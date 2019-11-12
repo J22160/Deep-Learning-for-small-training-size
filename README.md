@@ -16,9 +16,9 @@ The data was spilt into Training and Validation Set. The training set has 220 im
 
 **1. CNN Model**
 
-It is a sequential model having 2 Convolutional Blocks and 2 Fully Connected Layers.
+It is a sequential model having 2 Convolutional Blocks and a Fully Connected Layer.
 
-![Screenshot from 2019-11-08 10-46-32](https://user-images.githubusercontent.com/47391270/68464786-3c849480-0237-11ea-86a8-4f24703d283d.png)
+![Screenshot from 2019-11-12 10-53-54](https://user-images.githubusercontent.com/47391270/68644412-ed8e7600-053a-11ea-9e92-db10ed2ddfaa.png)
 
 Stochastic Gradient Descent with momentum is used as the optimizer with a very small learning rate and the model is trained for 50 epochs so as to avoid overfitting.
 
